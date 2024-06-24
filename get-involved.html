@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Children</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script> 
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="get-involved.html"><img src="images/logo.png"></a>
+        <div class="nav-sub" id="navSub">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="get-involved.html">GET INVOLVED</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>GET INVOLVED</h1>
+  </section>
+
+
+ <!-----------------GET-INVOLVED---------------->
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+      <h2>Take Action: Volunteering, Advocating, and Donating for Children's Futures</h2>
+      <p>Volunteering, advocating, and donating are essential pillars of Save the Children's mission to improve the lives of children worldwide. Through volunteering, individuals can actively engage in various programs and initiatives, offering their time, skills, and expertise to support vulnerable children in need. <br>Whether it's participating in educational activities, providing healthcare assistance, or contributing to community development projects, volunteers play a vital role in making a direct and positive impact on children's lives.
+      Advocating for children's rights and well-being is another crucial aspect of Save the Children's work.<br> By raising awareness, speaking up, and advocating for policy changes, individuals can help create a better future for children. Advocacy efforts may involve supporting campaigns, lobbying for legislation, or joining advocacy networks to address systemic issues that hinder children's access to education, healthcare, protection, and other essential services.<br>
+      Donating to Save the Children is a powerful way to contribute to their cause. Financial contributions enable the organization to expand their reach and implement impactful programs that address the immediate and long-term needs of children.<br> Donations can fund various initiatives, such as emergency response efforts during humanitarian crises, sustainable development projects, and initiatives to combat child poverty, malnutrition, and lack of access to quality education.<br>
+      Volunteering, advocating, and donating all play a crucial role in Save the Children's mission to ensure that every child has a healthy, safe, and supportive environment to grow and thrive. By actively getting involved in these ways, individuals can make a tangible difference and contribute to creating a brighter future for children around the world.</p>
+      
+      <div class="button">
+        <button class="donateButton" onclick="explodeConfetti()">Donate</button>
+      </div>
+  
+      <div class="comment-box">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button> 
+          </form>
+        </div>
+    </div>
+
+    <div class="blog-right">
+      <div>
+        <img src="images/donation.jpg">
+      </div>
+      <div>
+        <img src="images/volunteer.jpg">
+      </div>
+      <div>
+        <img src="images/Advocate.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--------footer--------->
+<section class="footer">
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>&copy; Save The Children</a>, All Right Reserved.</p>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Children</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="programs.html"><img src="images/logo.png"></a>
+        <div class="nav-sub" id="navSub">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="get-involved.html">GET INVOLVED</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Programs</h1>
+  </section>
+
+
+  <section class="prog">
+    <div class="row">
+        <div class="img-col">
+            <h2>Educational Initiatives</h2>
+            <img src="images/education.png">
+        </div> 
+        <div class="prog-col">
+            <h3>Education for All</h3>
+            <p>Providing quality education to children regardless of their socio-economic background.</p>
+            <h3>Child Sponsorship Program</h3>
+            <p>Enabling access to education for underprivileged children through sponsorships.</p>
+            <h3>Digital Learning Centers</h3>
+            <p>Establishing centers equipped with computers and internet for digital education.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <h2>Child Protection</h2>
+            <img src="images/Advocate.jpg">
+        </div>
+        <div class="prog-col">
+            <h3>Child Advocacy</h3>
+            <p>Advocating for children's rights and protection from abuse, exploitation, and trafficking.</p>
+            <h3>Emergency Response</h3>
+            <p>Providing immediate assistance and protection to children affected by disasters and conflicts.</p>
+            <h3>Safe Spaces</h3>
+            <p>Creating safe environments for children to play, learn, and grow without fear.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <h2>Healthcare Services</h2>
+            <img src="images/healthcare.png">
+        </div> 
+        <div class="prog-col">
+            <h3>Maternal and Child Health</h3>
+            <p>Ensuring access to quality healthcare for mothers and children in remote areas.</p>
+            <h3>Vaccination Drives</h3>
+            <p>Organizing vaccination campaigns to prevent deadly diseases among children.</p>
+            <h3>Nutrition Programs</h3>
+            <p>Addressing malnutrition issues through nutrition education and supplementary feeding.</p>
+        </div> 
+    </div>
+ </section>
+
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>&copy; Save The Children</a>, All Right Reserved.</p>
+</section>
+
+<script>
+    var navSub = document.getElementById("navSub");
+    function showMenu(){
+        navSub.style.right = "0";
+    }
+    function hideMenu(){
+        navSub.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
